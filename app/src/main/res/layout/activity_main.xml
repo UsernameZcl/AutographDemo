@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.zcl.autographdemo.MainActivity">
+
+    <com.example.zcl.autographdemo.QMView
+        android:id="@+id/qm"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"/>
+
+    <ImageView
+        android:id="@+id/iv_aaa"
+        android:onClick="start"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"/>
+
+</LinearLayout>
